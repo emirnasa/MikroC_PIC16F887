@@ -41,7 +41,6 @@ while(1){  //inicio bucle infinito
                                     //espero 20 ms, y verifico si es presionado,
                                     //es decir 1, la estructura es
                                     //Button(&Puerto, pin, tiempo presionado, estado)
-       Delay_ms(20);     //espero un tiempo por si el switch aun sigue presionado
        PORTD = 1;      //Primer paso del parpadeo
        Delay_100ms;
        PORTD = 0;
